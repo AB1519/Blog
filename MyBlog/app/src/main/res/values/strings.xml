@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyBlog</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="postTitle">Post Title</string>
+    <string name="postdescription">Post Description</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+</resources>

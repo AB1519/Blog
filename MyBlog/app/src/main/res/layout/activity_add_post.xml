@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bangadi.myblog.Activities.AddPostActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="364dp"
+        android:layout_height="245dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/add_btn"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"/>
+
+    <EditText
+        android:id="@+id/postTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="@string/postTitle"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/postDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/postTitle"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="@string/postdescription"
+        android:inputType="textPersonName"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/submitPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="Submit" />
+</RelativeLayout>
